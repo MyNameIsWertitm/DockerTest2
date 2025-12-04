@@ -9,9 +9,13 @@ WebApplication app = builder.Build();
 
 app.MapGet("/", (ILogger<Program> _logger) => 
 {
-    var envVar = DotEnv.Read();
-    _logger.LogInformation("logging Hello World!"); 
-    return $"{envVar["APP_NAME"]}"; 
+    try
+    {
+        var envVar = DotEnv.Read();
+        _logger.LogInformation("logging Hello World!");
+        return $"{envVar["APP_NAME"]}";
+    }
+    catch (Exception ex) { return $"{ex.Message}"; }
 });
 
 app.Run();
