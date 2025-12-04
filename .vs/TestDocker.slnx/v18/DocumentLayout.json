@@ -5,6 +5,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{1B98547B-8D18-1DF6-0AE8-59CA8F9CCE2D}|TestDocker\\TestDocker.csproj|c:\\users\\vano2\\scp\\testdocker\\testdocker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1B98547B-8D18-1DF6-0AE8-59CA8F9CCE2D}|TestDocker\\TestDocker.csproj|solutionrelative:testdocker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B98547B-8D18-1DF6-0AE8-59CA8F9CCE2D}|TestDocker\\TestDocker.csproj|c:\\users\\vano2\\scp\\testdocker\\testdocker\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1B98547B-8D18-1DF6-0AE8-59CA8F9CCE2D}|TestDocker\\TestDocker.csproj|solutionrelative:testdocker\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +18,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 398,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\vano2\\SCP\\TestDocker\\TestDocker\\appsettings.json",
+              "RelativeDocumentMoniker": "TestDocker\\appsettings.json",
+              "ToolTip": "C:\\Users\\vano2\\SCP\\TestDocker\\TestDocker\\appsettings.json",
+              "RelativeToolTip": "TestDocker\\appsettings.json",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-04T07:43:26.634Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,7 +41,7 @@
               "RelativeDocumentMoniker": "TestDocker\\Program.cs",
               "ToolTip": "C:\\Users\\vano2\\SCP\\TestDocker\\TestDocker\\Program.cs",
               "RelativeToolTip": "TestDocker\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-02T11:00:04.281Z",
               "EditorCaption": ""

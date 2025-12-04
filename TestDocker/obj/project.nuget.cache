@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "NWUmDL7/RlQ=",
+  "dgSpecHash": "Hxux35wZJYs=",
   "success": true,
   "projectFilePath": "C:\\Users\\vano2\\SCP\\TestDocker\\TestDocker\\TestDocker.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\vano2\\.nuget\\packages\\dotenv.net\\4.0.0\\dotenv.net.4.0.0.nupkg.sha512",
     "C:\\Users\\vano2\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.23.0\\microsoft.visualstudio.azure.containers.tools.targets.1.23.0.nupkg.sha512"
   ],
   "logs": []

@@ -27,3 +27,7 @@ C:\Users\vano2\SCP\TestDocker\TestDocker\obj\Debug\net10.0\refint\TestDocker.dll
 C:\Users\vano2\SCP\TestDocker\TestDocker\obj\Debug\net10.0\TestDocker.pdb
 C:\Users\vano2\SCP\TestDocker\TestDocker\obj\Debug\net10.0\TestDocker.genruntimeconfig.cache
 C:\Users\vano2\SCP\TestDocker\TestDocker\obj\Debug\net10.0\ref\TestDocker.dll
+C:\Users\vano2\SCP\TestDocker\TestDocker\bin\Debug\net10.0\dotenv.net.dll
+C:\Users\vano2\SCP\TestDocker\TestDocker\obj\Debug\net10.0\TestDocker.csproj.AssemblyReference.cache
+C:\Users\vano2\SCP\TestDocker\TestDocker\obj\Debug\net10.0\TestDocker.sourcelink.json
+C:\Users\vano2\SCP\TestDocker\TestDocker\obj\Debug\net10.0\TestDocker.csproj.Up2Date
