@@ -1,9 +1,8 @@
-using dotenv.net;
+using DotNetEnv;
 
 WebApplicationBuilder builder = WebApplication.CreateBuilder(args);
 
-string envPath = builder.Configuration["EnvPath"];
-DotEnv.Load(options: new DotEnvOptions(envFilePaths: new[] { envPath }));
+string? envPath = builder.Configuration["EnvPath"];
 
 WebApplication app = builder.Build();
 
@@ -11,9 +10,10 @@ app.MapGet("/", (ILogger<Program> _logger) =>
 {
     try
     {
-        var envVar = DotEnv.Read();
+        Env.Load(envPath);
+        string? app_name = Environment.GetEnvironmentVariable("APP_NAME");
         _logger.LogInformation("logging Hello World!");
-        return $"{envVar["APP_NAME"]}";
+        return $"{app_name}";
     }
     catch (Exception ex) { return $"{ex.Message}"; }
 });
