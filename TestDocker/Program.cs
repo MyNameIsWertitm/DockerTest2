@@ -2,16 +2,16 @@ using DotNetEnv;
 
 WebApplicationBuilder builder = WebApplication.CreateBuilder(args);
 
-string? envPath = builder.Configuration["EnvPath"];
-
 WebApplication app = builder.Build();
 
 app.MapGet("/", (ILogger<Program> _logger) => 
 {
     try
     {
+        string? envPath = builder.Configuration["EnvPath"];
+        Console.WriteLine(envPath);
         Env.Load(envPath);
-        string? app_name = Environment.GetEnvironmentVariable("APP_NAME");
+        string? app_name = Environment.GetEnvironmentVariable("APP_NAME") + " " + envPath;
         _logger.LogInformation("logging Hello World!");
         return $"{app_name}";
     }

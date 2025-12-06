@@ -28,9 +28,10 @@
               "RelativeDocumentMoniker": "TestDocker\\appsettings.json",
               "ToolTip": "C:\\Users\\vano2\\SCP\\TestDocker\\TestDocker\\appsettings.json",
               "RelativeToolTip": "TestDocker\\appsettings.json",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-12-04T07:43:26.634Z"
+              "WhenOpened": "2025-12-04T07:43:26.634Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -38,9 +39,9 @@
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\vano2\\SCP\\TestDocker\\TestDocker\\Program.cs",
               "RelativeDocumentMoniker": "TestDocker\\Program.cs",
-              "ToolTip": "C:\\Users\\vano2\\SCP\\TestDocker\\TestDocker\\Program.cs",
-              "RelativeToolTip": "TestDocker\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\vano2\\SCP\\TestDocker\\TestDocker\\Program.cs*",
+              "RelativeToolTip": "TestDocker\\Program.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-02T11:00:04.281Z",
               "EditorCaption": ""
